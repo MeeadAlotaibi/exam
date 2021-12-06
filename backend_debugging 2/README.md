@@ -49,5 +49,3 @@ and change ```{ isDel: false }```
 
 - ```todoRouter.get("/todo/:id", getTodoById);```
 - ```todoRouter.put("/todo/:id", updateTodo);```
-
--
