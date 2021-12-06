@@ -33,7 +33,7 @@
 -  in function getTodoById ,, change from findOne to find
 - delete findOneAndUpdate and put findOne
 - in function completeTodo ,, delete ==>  ```{ new: true }```
-- in function updateTodo ,, put ```const task = req.body.task;`` 
+- in function updateTodo ,, put ```const task = req.body.task;```
 - put ```const id = req.params.id;```
 delete ```const newTask = req.body.task;``` put ```const isDel = req.body.isDel;```
 and change ```{ isDel: false }```
