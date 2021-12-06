@@ -13,11 +13,11 @@
 - import dotenv
 - configratin dotenv
 - import DB_URL
-- ```.catch((err) => {
+- `.catch((err) => {
     console.log("DB connected");
   }); ===> .catch((err) => {
     console.log(err);
-  });```
+  });`
 
 ## models index.js
 - ``` const mongoose = require("mongose");``` ===> ```const mongoose = require("mongoose");```
